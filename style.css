@@ -1,0 +1,9 @@
+.img-cliente:hover {
+    transform: scale(1.20);
+    transition: all 0.5s;
+}
+
+.card-over:hover .img-big {
+    transform: scale(1.10);
+    transition: all 0.5s;
+}
