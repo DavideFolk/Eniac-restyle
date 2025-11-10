@@ -161,10 +161,9 @@
                     <div>
                         <h2>La nostra qualità è certificata</h2>
                         <p class="lead">Il Sistema di Gestione per la qualità di ENIAC è certificato secondo la norma
-                            internazionale UNI EN ISO 9001:2008, è stato certificato dal CSQ (Ente di certificazione
-                            tra i più prestigiosi).
-                            La certificazione conseguita è riconosciuta anche a livello internazionale attraverso la
-                            Federazione IQNET.</p>
+                            internazionale ISO 9001:2015, è stato certificato da IMQ (Ente di certificazione tra i più
+                            prestigiosi). La certificazione conseguita è riconosciuta anche a livello internazionale
+                            attraverso la Federazione IQNET.</p>
                     </div>
                 </div>
                 <div>
@@ -192,19 +191,23 @@
         </div>
 
         <div class="container position-relative bg-dark py-5 rounded shadow card-over">
-            <div class="position-absolute start-0 top-0 d-none d-xl-block overflow-hidden">
-                <img class="img-fluid img-big" style="max-width:512px" src="images/img-2.jpg" alt="">
+
+            <!-- Immagine solo per schermi >= 1400px -->
+            <div class="position-absolute start-0 top-0 d-none d-xxl-block overflow-hidden">
+                <img class="img-fluid img-big" style="max-width:512px; height:auto; object-fit:cover;"
+                    src="images/img-2.jpg" alt="">
             </div>
 
-            <div class="row justify-content-xl-start justify-content-center">
-
-                <div class="col-10 d-block d-xl-none mt-n8 mb-4">
-                    <img class="ratio img-fluid" style="max-height:700px;object-fit:cover;" src="images/img-3.jpg"
-                        sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="" alt="Photo by Valerie Elash">
+            <!-- Immagine solo per schermi < 1400px -->
+            <div class="row justify-content-center d-xxl-none">
+                <div class="col-12 col-md-10 mb-4">
+                    <img class="img-fluid rounded shadow-sm"
+                        style="width:100%; height:auto; object-fit:cover; max-height:700px;" src="images/img-3.jpg"
+                        alt="">
                 </div>
-
             </div>
-            <div class="row px-3 px-xl-0 col-xl-6 offset-xl-5 text-white">
+
+            <div class="row px-3 px-xxl-0 col-xxl-6 offset-xxl-5 text-white">
                 <div class="col-sm-6 text-center text-sm-start mb-3">
                     <div class="mb-4">
                         <i class="bi bi-ethernet" style="font-size: 3rem;"></i>
@@ -431,7 +434,7 @@
             <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4">
                     <div>
-                        <p class="text-muted">© 2022 ENIAC S.r.l. - P.IVA IT12999690154</p>
+                        <p class="text-muted">© 2025 ENIAC S.r.l. - P.IVA IT12999690154</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto col-md-4">
